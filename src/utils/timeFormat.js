@@ -4,7 +4,7 @@
  *
  */
 import _ from 'lodash'
-import moment from 'moment'
+import moment from "moment";
 /*
 只转化引擎返回的date类型
 将将对象转化成TimeSpan
