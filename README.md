@@ -1,7 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 
-## 这是一个利用creat-react-app脚手架创建的project
+## 这是一个利用creat-react-app脚手架创建的project (branch:topic/wln)
+
 
 * 由于工作中经常遇到时间转换的问题，遂这里进行了一些方法的总结和转换，以备不时之需，引擎一般给我们日期的格式是这样的: `"/Date(-62135596800000-0000)/"` 这里在utils文件夹下进行了时间转换的各种方法，也借用了moment组件，那么，让我们开始吧！ * 
 
@@ -53,7 +54,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 1. 本地创建一个文件夹
 
-2. git init   
+2. git init    #会生成.git文件夹  
 
 3. git add .
 
@@ -70,7 +71,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 9. 关联好之后我们就可以把本地库的所有内容推送到远程仓库（也就是Github）上了，通过：
 `git push -u origin master` [^_^]:由于新建的远程仓库是空的，所以要加上-u这个参数，等远程仓库里面有了内容之后，下次再从本地库上传内容的时候只需下面这样就可以了： `git push origin master`
 
-10. 如果是自己新建的分支，先把此分支和远程仓库连接，也就是推送到远程仓库，
+10. 如果是远程木有的分支，先把此分支和远程仓库连接，也就是推送到远程仓库，
 `git push --set-upstream origin topic_wln  `
 
 
