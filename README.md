@@ -1,6 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+
 ## 这是一个利用creat-react-app脚手架创建的project
+
+### 由于工作中经常遇到时间转换的问题，遂这里进行了一些方法的总结和转换，以备不时之需，引擎一般给我们日期的格式是这样的: `"/Date(-62135596800000-0000)/"` 这里在utils文件夹下进行了时间转换的各种方法，也借用了moment组件，那么，让我们开始吧！ 
+
+#### 北京时间 = UTC时间 + 8h
 
 > 简单的安装使用
 1. npm install -g create-react-app
